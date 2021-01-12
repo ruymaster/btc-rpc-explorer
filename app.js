@@ -216,6 +216,7 @@ function onRpcConnectionVerified(getnetworkinfo, getblockchaininfo) {
 	var bitcoinCoreVersionRegex = /^.*\/Satoshi\:(.*)\/.*$/;
 
 	var match = bitcoinCoreVersionRegex.exec(getnetworkinfo.subversion);
+	match = "0.20.1"
 	if (match) {
 		global.btcNodeVersion = match[1];
 
