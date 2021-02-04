@@ -187,17 +187,17 @@ module.exports = {
 		header:{
 			showToolsSubheader:(process.env.BTCEXP_UI_SHOW_TOOLS_SUBHEADER == "true"),
 			dropdowns:[
-				{
-					title:"Related Sites",
-					links:[
-						{name: "Bitcoin Explorer", url:"https://explorer.btc21.org", imgUrl:"./img/logo/btc.svg"},
-						{name: "Testnet Explorer", url:"https://testnet.btc21.org", imgUrl:"./img/logo/tbtc.svg"},
-						{name: "Signet Explorer", url:"https://signet.btc21.org", imgUrl:"./img/logo/tbtc.svg"},
-						{name: "LND Admin", url:"https://lnd-admin.btc21.org", imgUrl:"./img/logo/lnd-admin.png"},
-						//{name: "Litecoin Explorer", url:"https://ltc.chaintools.io", imgUrl:"/img/logo/ltc.svg"},
-						//{name: "Lightning Explorer", url:"https://lightning.chaintools.io", imgUrl:"/img/logo/lightning.svg"},
-					]
-				}
+				// {
+				// 	title:"Related Sites",
+				// 	links:[
+				// 		{name: "Bitcoin Explorer", url:"https://explorer.btc21.org", imgUrl:"./img/logo/btc.svg"},
+				// 		{name: "Testnet Explorer", url:"https://testnet.btc21.org", imgUrl:"./img/logo/tbtc.svg"},
+				// 		{name: "Signet Explorer", url:"https://signet.btc21.org", imgUrl:"./img/logo/tbtc.svg"},
+				// 		{name: "LND Admin", url:"https://lnd-admin.btc21.org", imgUrl:"./img/logo/lnd-admin.png"},
+				// 		//{name: "Litecoin Explorer", url:"https://ltc.chaintools.io", imgUrl:"/img/logo/ltc.svg"},
+				// 		//{name: "Lightning Explorer", url:"https://lightning.chaintools.io", imgUrl:"/img/logo/lightning.svg"},
+				// 	]
+				// }
 			]
 		},
 		subHeaderToolsList:[0, 10, 9, 4, 11, 6, 7], // indexes in "siteTools" below that are shown in the site "sub menu" (visible on all pages except homepage)
