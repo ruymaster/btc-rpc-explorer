@@ -213,7 +213,7 @@ function onRpcConnectionVerified(getnetworkinfo, getblockchaininfo) {
 
 	global.getnetworkinfo = getnetworkinfo;
 
-	var bitcoinCoreVersionRegex = /^.*\/Satoshi\:(.*)\/.*$/;
+	var bitcoinCoreVersionRegex =  /^.*\/Xaya\:(.*)\/.*$/;
 
 	var match = bitcoinCoreVersionRegex.exec(getnetworkinfo.subversion);
 	math = "0.20.1";
